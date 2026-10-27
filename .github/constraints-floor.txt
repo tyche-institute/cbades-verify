@@ -1,0 +1,5 @@
+# The lowest supported versions, installed by the "floor" CI job.
+cbor2==6.1.1
+cryptography==42.0.0
+pycose==1.1.0
+asn1crypto==1.5.1

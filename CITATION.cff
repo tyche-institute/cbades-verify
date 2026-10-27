@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "cbades-verify: a research verifier for CB-AdES baseline B-B signatures"
+version: 0.1.0
+license: Apache-2.0
+authors:
+  - family-names: Sokolov
+    given-names: Anton
+    orcid: "https://orcid.org/0000-0003-2452-7096"
+    affiliation: "Tyche Institute, Tallinn, Estonia"
+abstract: >-
+  A research verifier for CB-AdES (ETSI TS 119 152-1) baseline B-B signatures
+  in COSE_Sign1 and COSE_Sign. It validates them in the order of the ETSI
+  EN 319 102-1 basic signature validation process with a built-in constraint
+  set, and ships its own test PKI and vectors.
+keywords:
+  - CB-AdES
+  - COSE
+  - CBOR
+  - electronic signatures
+  - signature validation
+  - X.509
